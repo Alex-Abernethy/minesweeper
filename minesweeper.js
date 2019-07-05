@@ -2,14 +2,17 @@ document.addEventListener('DOMContentLoaded', startGame)
 
 // Define your `board` object here!
 
-function Board() {
-  this.cells = []
-}
+// function Board() {
+//   this.cells = []
+// }
 
-var board = new Board
+// var board = new Board
+
+var board = {}
 
 function setupBoard(dimension) {
-
+  
+  board.cells= []
   let n = dimension
 
   for (let row = 0; row < n; row++) {
@@ -83,6 +86,6 @@ window.onload=function(){
 
 function resetBoard () {
   document.querySelector(".board").innerHTML= ''
-  var board = new Board
+  var board = {}
   startGame()
   };
