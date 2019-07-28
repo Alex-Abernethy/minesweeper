@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Open Sans', sans-serif;
+  background-color: powderblue;
 }
 
 body {
@@ -26,11 +27,12 @@ body {
 }
 
 .board div {
-  color: green;
+  color: black;
   font-size: 2rem;
   width: 75px;
   height: 75px;
-  border: 1px #ccc dotted;
+  border: 2px;
+  border-color: black;
   border-radius: 10%;
   background-color: white;
   margin: 3px;
